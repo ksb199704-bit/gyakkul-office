@@ -309,6 +309,79 @@
   .shead h2{margin:0;font-size:17px;font-weight:800;letter-spacing:-.6px;flex:1}
   .xbtn{width:30px;height:30px;flex:0 0 30px;border-radius:50%;border:0;background:#f1f3f6;color:#6b7484;font-size:15px;font-weight:700;cursor:pointer;display:flex;align-items:center;justify-content:center}
   .stitle{font-size:11.5px;font-weight:800;color:#8b93a1;margin:14px 0 7px;letter-spacing:.1px}
+
+  /* ---------- gavis title studio ---------- */
+  .tstudio{display:flex;flex-direction:column;gap:11px}
+  .tinput{
+    width:100%;border:1.4px solid #e3e7ee;background:#f8f9fb;border-radius:13px;
+    padding:12px 13px;font-family:inherit;font-size:13.5px;font-weight:700;color:var(--ink);
+    letter-spacing:-.4px;line-height:1.45;outline:none;transition:border-color .16s,background .16s;
+  }
+  .tinput::placeholder{color:#a9b0bd;font-weight:600}
+  .tinput:focus{border-color:#c0c9d8;background:#fff}
+  .trowtop{display:flex;align-items:center;gap:7px;flex-wrap:wrap;margin-top:9px}
+  .tnum{font-size:11.5px;font-weight:800;color:#5d6675;letter-spacing:-.2px}
+  .tnum b{font-size:14px;font-weight:800;color:var(--ink);letter-spacing:-.6px}
+  .tbadge{display:inline-flex;align-items:center;gap:4px;font-size:10.5px;font-weight:800;padding:4px 9px;border-radius:999px;background:#eef1f5;color:#6b7484;letter-spacing:-.2px}
+  .tbadge .d{width:5px;height:5px;border-radius:50%;background:currentColor}
+  .tbadge.ok{background:var(--green-bg);color:var(--green)}
+  .tbadge.warn{background:var(--amber-bg);color:var(--amber)}
+  .tclear{margin-left:auto;border:0;background:#f1f3f6;color:#6b7484;font-family:inherit;font-size:11px;font-weight:800;letter-spacing:-.2px;padding:6px 10px;border-radius:9px;cursor:pointer}
+  .tclear:active{opacity:.6}
+  .tprev{border-radius:15px;background:#f7f8fa;padding:12px 12px 13px}
+  .tprev + .tprev{margin-top:0}
+  .tplab{display:flex;align-items:baseline;gap:6px;margin-bottom:8px}
+  .tplab b{font-size:11px;font-weight:800;color:#6b7484;letter-spacing:-.1px}
+  .tplab span{font-size:10.5px;font-weight:600;color:#a9b0bd;letter-spacing:-.2px}
+  .tcardprev{background:#fff;border:1px solid #e9ecf1;border-radius:12px;padding:11px 12px;box-shadow:var(--shadow-sm)}
+  .tcardprev .tt{font-size:13.5px;font-weight:750;line-height:1.42;letter-spacing:-.4px;color:var(--ink);word-break:keep-all}
+  .tcardprev .tt .cut{color:#b9c0cc}
+  .tcardprev .tt.ph{color:#a9b0bd;font-weight:600}
+  .tcardprev .tm{font-size:10.5px;color:#9aa2b1;font-weight:650;margin-top:6px;letter-spacing:-.2px}
+  .cutmark{display:flex;align-items:center;gap:6px;margin-top:8px}
+  .cutmark .cl{font-size:10px;font-weight:800;color:#a9b0bd;letter-spacing:-.2px;flex:0 0 auto}
+  .cutmark .bar{height:4px;border-radius:999px;background:#e8ebf0;flex:1;overflow:hidden}
+  .cutmark .bar i{display:block;height:100%;width:0;background:#c9d2e0;border-radius:999px;transition:width .12s linear}
+  .cutmark .bar i.over{background:#f0a91e}
+  .hstage{display:flex;justify-content:center;padding:2px 0 1px}
+  .hcard{width:192px;background:#fff;border-radius:11px;padding:8px;box-shadow:0 1px 2px rgba(17,24,39,.05),0 5px 14px rgba(17,24,39,.06)}
+  .hthumb{height:62px;border-radius:8px;background:linear-gradient(140deg,#e6ebf3,#f2f5f9);margin-bottom:7px;display:flex;align-items:center;justify-content:center;color:#b9c2d0;font-size:9px;font-weight:800;letter-spacing:.6px}
+  .htitle{font-size:10px;line-height:13.5px;font-weight:750;letter-spacing:-.4px;color:var(--ink);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;max-height:27px;word-break:keep-all}
+  .htitle.ph{color:#a9b0bd;font-weight:600}
+  .hmeta{font-size:8.5px;color:#9aa2b1;font-weight:650;margin-top:5px;letter-spacing:-.2px;display:flex;align-items:center;gap:4px}
+  .hmeta .hd{width:12px;height:12px;border-radius:50%;background:#e7ecf3;flex:0 0 12px}
+  .hstat{font-size:10.5px;font-weight:800;color:#6b7484;margin-top:7px;text-align:center;letter-spacing:-.2px}
+  .hstat.cut{color:#b4690e}
+  .hstat.fit{color:#0e8a46}
+  .qchecks{display:flex;gap:6px;flex-wrap:wrap}
+  .qchk{display:inline-flex;align-items:center;gap:4px;font-size:10.5px;font-weight:750;letter-spacing:-.2px;padding:6px 9px;border-radius:9px;background:#fff;border:1px solid #e7eaef;color:#5d6675}
+  .qchk b{font-weight:800;color:#3d4655}
+  .qchk.ok{border-color:#cdf0da;background:#f3fbf6;color:#0e8a46}
+  .qchk.ok b{color:#0e8a46}
+  .qchk.warn{border-color:var(--amber-line);background:var(--amber-bg);color:var(--amber)}
+  .qchk.warn b{color:var(--amber)}
+  .tlib{display:flex;flex-direction:column;gap:10px}
+  .lcard{background:var(--card);border-radius:18px;padding:14px;box-shadow:var(--shadow);border:1px solid rgba(17,24,39,.03)}
+  .lhead{display:flex;align-items:center;gap:9px;margin-bottom:4px}
+  .lnum{width:24px;height:24px;flex:0 0 24px;border-radius:8px;background:var(--navy);color:#fff;font-size:11px;font-weight:800;display:flex;align-items:center;justify-content:center}
+  .lhead .lt{flex:1;min-width:0}
+  .lhead .lt b{display:block;font-size:13px;font-weight:800;letter-spacing:-.4px;line-height:1.3}
+  .lhead .lt span{display:block;font-size:10.5px;color:#9aa2b1;font-weight:600;margin-top:1px;letter-spacing:-.2px;word-break:keep-all}
+  .lrow{display:flex;align-items:flex-start;gap:8px;padding:9px 0;border-top:1px solid #f2f4f7}
+  .lrow.first{border-top:0}
+  .ltitle{flex:1;min-width:0;text-align:left;background:transparent;border:0;padding:0;font-family:inherit;font-size:12.5px;font-weight:700;color:var(--ink);letter-spacing:-.4px;line-height:1.45;cursor:pointer;word-break:keep-all}
+  .ltitle:active{opacity:.6}
+  .ltitle .llen{display:inline-block;font-size:10px;font-weight:800;color:#b9c0cc;margin-left:3px;letter-spacing:-.2px}
+  .copybtn{flex:0 0 auto;border:0;background:#eef1f6;color:#4b5566;font-family:inherit;font-size:10.5px;font-weight:800;letter-spacing:-.2px;padding:6px 9px;border-radius:8px;cursor:pointer;transition:background .16s,color .16s;margin-top:1px}
+  .copybtn:active{opacity:.6}
+  .copybtn.done{background:var(--green-bg);color:var(--green)}
+  .tags{display:flex;flex-wrap:wrap;gap:5px;margin-top:10px;padding-top:10px;border-top:1px solid #f2f4f7}
+  .tagchip{font-size:10.5px;font-weight:700;color:#5d6675;background:#f4f6f9;border-radius:7px;padding:4px 7px;letter-spacing:-.2px;word-break:break-all}
+  .tagrow{display:flex;align-items:center;gap:8px;margin-top:9px}
+  .tagrow .tg{flex:1;font-size:10.5px;font-weight:700;color:#9aa2b1;letter-spacing:-.2px}
+  .toast{position:fixed;left:50%;bottom:28px;transform:translate(-50%,14px);z-index:80;background:rgba(21,27,36,.94);color:#fff;font-size:12px;font-weight:800;letter-spacing:-.3px;padding:10px 16px;border-radius:999px;opacity:0;pointer-events:none;transition:opacity .2s,transform .2s;box-shadow:0 8px 24px rgba(17,24,39,.28);white-space:nowrap}
+  .toast.on{opacity:1;transform:translate(-50%,0)}
+  .toast.err{background:rgba(150,40,30,.95)}
 </style>
 </head>
 <body>
@@ -507,6 +580,55 @@
         </button>
         <div class="note" style="margin-top:6px">전일 최고 반응 — KIA 네일 연봉 삭감 <b style="color:#3d4655">공감 197 · 댓글 142</b>.</div>
       </div>
+
+      <div class="sec"><h3>제목 스튜디오</h3><span class="more">20자 · 40자 잘림 체크</span></div>
+      <div class="card">
+        <div class="tstudio">
+          <div>
+            <input class="tinput" id="tInput" type="text" autocomplete="off" spellcheck="false"
+                   placeholder="제목을 입력하거나, 아래 보관함 제목을 눌러 불러오세요" aria-label="GAVIS 제목 미리보기 입력">
+            <div class="trowtop">
+              <span class="tnum"><b id="tCount">0</b>자</span>
+              <span class="tbadge" id="tBadge"><span class="d"></span><span id="tBadgeTx">32~40자 권장</span></span>
+              <button class="tclear" id="tClear" type="button">지우기</button>
+            </div>
+          </div>
+
+          <div class="tprev">
+            <div class="tplab"><b>블로그 주제판</b><span>앞 20자에서 잘림</span></div>
+            <div class="tcardprev">
+              <div class="tt ph" id="tTopic">제목을 입력하면 여기에 보여요</div>
+              <div class="tm" id="tTopicMeta">카드 노출 구간 · 0자 / 20자</div>
+            </div>
+            <div class="cutmark">
+              <span class="cl">0</span>
+              <span class="bar"><i id="tTopicBar"></i></span>
+              <span class="cl">20자</span>
+            </div>
+          </div>
+
+          <div class="tprev">
+            <div class="tplab"><b>야구 홈판 카드</b><span>폭 192px · 38~42자 2줄 컷</span></div>
+            <div class="hstage">
+              <div class="hcard">
+                <div class="hthumb">GAVIS</div>
+                <div class="htitle ph" id="tHome">제목을 입력하면 여기에 보여요</div>
+                <div class="hmeta"><span class="hd"></span>gavis_ · 3분 전</div>
+              </div>
+            </div>
+            <div class="hstat" id="tHomeStat">2줄 안에 다 들어오는지 확인해요</div>
+          </div>
+
+          <div class="qchecks">
+            <span class="qchk" id="qEll">말줄임표 <b>0</b>개</span>
+            <span class="qchk" id="qQ">물음표 <b>0</b>개</span>
+            <span class="qchk" id="qNum">앞 20자 숫자 <b>없음</b></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="sec"><h3>제목·태그 보관함</h3><span class="more" id="tLibDate">불러오는 중</span></div>
+      <div class="tlib" id="tLib"></div>
     </section>
 
     <!-- ================= sportrend ================= -->
@@ -677,6 +799,99 @@
   </div>
 </template>
 
+
+<!-- ============ GAVIS 제목·태그 데이터 (자동화 갱신 지점 · 이 블록만 교체) ============ -->
+<script id="gavis-titles-data" type="application/json">
+{
+  "updated": "2026-11-28",
+  "source": "GAVIS 제목·본문 플레이북 + 드라이브 '제목' 폴더 3편",
+  "note": "매일 분석 자동화는 이 JSON의 updated·topics만 교체하면 됩니다. 구조(titles 3개, tags 15개) 유지.",
+  "topics": [
+    {
+      "id": "hongwonbin",
+      "label": "홍원빈 · KIA 복귀설",
+      "note": "은퇴 1년 제한 풀린 157km 우완 · 관건은 제구",
+      "titles": [
+        "은퇴 1년 만에 KIA 복귀?… 157km 홍원빈, 제구까지 달라졌을까",
+        "연봉 절반 쓰고 은퇴했던 홍원빈… KIA가 다시 손 내미는 이유",
+        "불펜 비었다고 홍원빈을?… 멕시코서도 방출됐던 157km 강속구"
+      ],
+      "tags": [
+        "#홍원빈",
+        "#홍원빈복귀",
+        "#KIA타이거즈",
+        "#KIA불펜",
+        "#157km",
+        "#강속구",
+        "#제구불안",
+        "#임의해지",
+        "#복귀제한",
+        "#퓨처스리그",
+        "#정해영",
+        "#이의리",
+        "#불펜보강",
+        "#프로야구",
+        "#KBO"
+      ]
+    },
+    {
+      "id": "fedde",
+      "label": "크리스 페덱 · 삼성 잔류",
+      "note": "샐러리캡 460만 달러 중 페덱 몫 130만 달러",
+      "titles": [
+        "우승 에이스 또 뺏기면 어쩌려고… 페덱 130만 달러에 묶인 삼성",
+        "ERA 2.95 페덱에게 130만 달러?… 일본 구단들 움직임 심상찮다",
+        "12년 전 밴덴헐크 악몽 또 오나… 삼성, 페덱 지킬 카드가 없다"
+      ],
+      "tags": [
+        "#크리스페덱",
+        "#페덱",
+        "#삼성라이온즈",
+        "#페덱재계약",
+        "#외국인샐러리캡",
+        "#후라도",
+        "#디아즈",
+        "#밴덴헐크",
+        "#일본야구",
+        "#NPB",
+        "#원태인",
+        "#구자욱",
+        "#외국인투수",
+        "#프로야구",
+        "#KBO"
+      ]
+    },
+    {
+      "id": "wisley",
+      "label": "제레미 비슬리 · 롯데 재계약",
+      "note": "ERA 4.96(17위) vs FIP 3.67(4위)의 간격",
+      "titles": [
+        "팀 내 선발 꼴찌인데 재계약?… 롯데가 비슬리를 못 놓는 이유",
+        "ERA 4.96 투수를 또 100만 달러에?… 롯데 비슬리 재계약의 진짜 이유",
+        "남의 팀 투수였어도 잡았을까… 롯데, 비슬리 반등에 또 거는 도박"
+      ],
+      "tags": [
+        "#제레미비슬리",
+        "#비슬리",
+        "#롯데자이언츠",
+        "#비슬리재계약",
+        "#외국인투수",
+        "#레이예스",
+        "#로드리게스",
+        "#FIP",
+        "#규정이닝",
+        "#수비효율",
+        "#BABIP",
+        "#가을야구",
+        "#이동욱",
+        "#프로야구",
+        "#KBO"
+      ]
+    }
+  ]
+}
+</script>
+
 <script>
 (function(){
   'use strict';
@@ -700,6 +915,7 @@
     });
     Object.keys(panels).forEach(function(k){ panels[k].classList.toggle('active', k === name); });
     try{ history.replaceState(null, '', '#' + name); }catch(e){}
+    if(name === 'gavis' && typeof gavisMeasure === 'function') gavisMeasure();
     if(scroll){ window.scrollTo({ top: 0, behavior: 'smooth' }); }
   }
 
@@ -800,6 +1016,292 @@
     b.addEventListener('change', function(){ save(); paint(); });
   });
   load();
+
+
+  /* ---------- gavis title studio ---------- */
+  var tInput = document.getElementById('tInput');
+  var tCount = document.getElementById('tCount');
+  var tBadge = document.getElementById('tBadge');
+  var tBadgeTx = document.getElementById('tBadgeTx');
+  var tTopic = document.getElementById('tTopic');
+  var tTopicMeta = document.getElementById('tTopicMeta');
+  var tTopicBar = document.getElementById('tTopicBar');
+  var tHome = document.getElementById('tHome');
+  var tHomeStat = document.getElementById('tHomeStat');
+  var qEll = document.getElementById('qEll');
+  var qQ = document.getElementById('qQ');
+  var qNum = document.getElementById('qNum');
+  var tLibEl = document.getElementById('tLib');
+  var tLibDate = document.getElementById('tLibDate');
+  var TOPIC_CUT = 20, HOME_MAX = 40;
+
+  function charLen(s){ return Array.from(s).length; }
+
+  function setQ(el, on, label, value){
+    if(!el) return;
+    el.className = 'qchk' + (on === true ? ' ok' : (on === false ? ' warn' : ''));
+    el.innerHTML = label + ' <b>' + value + '</b>';
+  }
+
+  function measureHome(n){
+    if(!tHomeStat) return;
+    if(!n){
+      tHomeStat.className = 'hstat';
+      tHomeStat.textContent = '홈판 카드에서 어디서 잘리는지 미리 봐요';
+      return;
+    }
+    if(n <= 40){
+      tHomeStat.className = 'hstat fit';
+      tHomeStat.textContent = n + '자 · 홈판 2줄에 다 들어감';
+    } else if(n <= 42){
+      tHomeStat.className = 'hstat cut';
+      tHomeStat.textContent = n + '자 · 경계 구간, 잘릴 수 있어요';
+    } else {
+      tHomeStat.className = 'hstat cut';
+      tHomeStat.textContent = n + '자 · 홈판 카드에서 잘림 (40자 이하 권장)';
+    }
+  }
+
+  function updateStudio(){
+    if(!tInput) return;
+    var v = tInput.value || '';
+    var chars = Array.from(v);
+    var n = chars.length;
+
+    if(tCount) tCount.textContent = n;
+    if(tBadge && tBadgeTx){
+      var cls = 'tbadge', tx = '32~40자 권장';
+      if(n === 0){ cls = 'tbadge'; tx = '32~40자 권장'; }
+      else if(n < 32){ cls = 'tbadge warn'; tx = '짧음 · 32~40자'; }
+      else if(n <= HOME_MAX){ cls = 'tbadge ok'; tx = '권장 구간'; }
+      else { cls = 'tbadge warn'; tx = '40자 초과'; }
+      tBadge.className = cls;
+      tBadgeTx.textContent = tx;
+    }
+
+    var head = chars.slice(0, TOPIC_CUT).join('');
+    var rest = chars.slice(TOPIC_CUT).join('');
+
+    if(tTopic){
+      tTopic.textContent = '';
+      if(n === 0){
+        tTopic.className = 'tt ph';
+        tTopic.textContent = '제목을 입력하면 여기에 보여요';
+      } else {
+        tTopic.className = 'tt';
+        tTopic.appendChild(document.createTextNode(head));
+        if(rest){
+          var c = document.createElement('span');
+          c.className = 'cut';
+          c.textContent = rest + '…';
+          tTopic.appendChild(c);
+        }
+      }
+    }
+    if(tTopicMeta){
+      if(n === 0) tTopicMeta.textContent = '카드 노출 구간 · 0자 / 20자';
+      else if(n > TOPIC_CUT) tTopicMeta.textContent = '앞 20자만 노출 · 뒤 ' + (n - TOPIC_CUT) + '자 잘림';
+      else tTopicMeta.textContent = '20자 안에 다 들어감 · ' + n + '자';
+    }
+    if(tTopicBar){
+      var pct = Math.min(n, TOPIC_CUT) / TOPIC_CUT * 100;
+      tTopicBar.style.width = pct + '%';
+      tTopicBar.className = n > TOPIC_CUT ? 'over' : '';
+    }
+
+    if(tHome){
+      if(n === 0){ tHome.className = 'htitle ph'; tHome.textContent = '제목을 입력하면 여기에 보여요'; }
+      else { tHome.className = 'htitle'; tHome.textContent = v; }
+    }
+    measureHome(n);
+
+    var ell = (v.match(/…/g) || []).length;
+    var q = (v.match(/\?/g) || []).length;
+    var num = /\d/.test(head);
+    setQ(qEll, n === 0 ? null : (ell <= 1), '말줄임표', ell + '개');
+    setQ(qQ, n === 0 ? null : (q === 1), '물음표', q + '개');
+    setQ(qNum, n === 0 ? null : (num ? true : null), '앞 20자 숫자', num ? '있음' : '없음');
+  }
+
+  function gavisMeasure(){ updateStudio(); }
+
+  if(tInput){
+    tInput.addEventListener('input', updateStudio);
+  }
+  var tClear = document.getElementById('tClear');
+  if(tClear){
+    tClear.addEventListener('click', function(){
+      if(!tInput) return;
+      tInput.value = '';
+      updateStudio();
+      tInput.focus();
+    });
+  }
+
+  /* ---------- toast + clipboard ---------- */
+  var toastEl = document.createElement('div');
+  toastEl.className = 'toast';
+  toastEl.setAttribute('role', 'status');
+  toastEl.setAttribute('aria-live', 'polite');
+  document.body.appendChild(toastEl);
+  var toastTimer = null;
+
+  function toast(msg, err){
+    if(!toastEl) return;
+    toastEl.textContent = msg;
+    toastEl.className = 'toast on' + (err ? ' err' : '');
+    if(toastTimer) clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){ toastEl.className = 'toast' + (err ? ' err' : ''); }, 1600);
+  }
+
+  function copyText(txt, btn){
+    function done(ok){
+      if(!ok){ toast('복사 실패 — 길게 눌러 선택해 복사해 주세요', true); return; }
+      toast('복사됨!');
+      if(btn){
+        var old = btn.getAttribute('data-old') || btn.textContent;
+        btn.setAttribute('data-old', old);
+        btn.textContent = '복사됨!';
+        btn.classList.add('done');
+        setTimeout(function(){ btn.textContent = old; btn.classList.remove('done'); }, 1400);
+      }
+    }
+    function fallback(){
+      var ta = document.createElement('textarea');
+      ta.value = txt;
+      ta.setAttribute('readonly', '');
+      ta.style.cssText = 'position:fixed;top:0;left:0;width:1px;height:1px;opacity:0;border:0;padding:0';
+      document.body.appendChild(ta);
+      var ok = false;
+      try{
+        ta.select();
+        ta.setSelectionRange(0, ta.value.length);
+        ok = document.execCommand('copy');
+      }catch(e){ ok = false; }
+      document.body.removeChild(ta);
+      done(ok);
+    }
+    if(navigator.clipboard && navigator.clipboard.writeText && window.isSecureContext){
+      navigator.clipboard.writeText(txt).then(function(){ done(true); }, fallback);
+    } else {
+      fallback();
+    }
+  }
+
+  /* ---------- title / tag library ---------- */
+  function loadTitle(t){
+    if(!tInput) return;
+    tInput.value = t;
+    updateStudio();
+    try{ tInput.scrollIntoView({ block:'center', behavior:'smooth' }); }catch(e){ tInput.scrollIntoView(); }
+    try{ tInput.focus({ preventScroll: true }); }catch(e){}
+  }
+
+  function renderLib(data){
+    if(!tLibEl) return;
+    tLibEl.textContent = '';
+    var topics = (data && data.topics) || [];
+    if(tLibDate){
+      tLibDate.textContent = (data && data.updated ? data.updated : '') +
+        (topics.length ? ' · ' + topics.length + '건' : '');
+    }
+    if(!topics.length){
+      var err = document.createElement('div');
+      err.className = 'card tight';
+      var p = document.createElement('div');
+      p.className = 'note';
+      p.style.marginTop = '0';
+      p.textContent = '보관함 데이터를 읽지 못했어요. 아래 #gavis-titles-data 블록을 확인해 주세요.';
+      err.appendChild(p);
+      tLibEl.appendChild(err);
+      return;
+    }
+    topics.forEach(function(tp, i){
+      var card = document.createElement('div');
+      card.className = 'lcard';
+
+      var head = document.createElement('div');
+      head.className = 'lhead';
+      var num = document.createElement('span');
+      num.className = 'lnum';
+      num.textContent = String(i + 1);
+      var lt = document.createElement('div');
+      lt.className = 'lt';
+      var lb = document.createElement('b');
+      lb.textContent = tp.label || ('제목 세트 ' + (i + 1));
+      lt.appendChild(lb);
+      if(tp.note){
+        var ls = document.createElement('span');
+        ls.textContent = tp.note;
+        lt.appendChild(ls);
+      }
+      head.appendChild(num);
+      head.appendChild(lt);
+      card.appendChild(head);
+
+      var titles = tp.titles || [];
+      titles.forEach(function(t, k){
+        var row = document.createElement('div');
+        row.className = 'lrow' + (k === 0 ? ' first' : '');
+        var b = document.createElement('button');
+        b.type = 'button';
+        b.className = 'ltitle';
+        b.setAttribute('aria-label', '이 제목을 위 미리보기로 불러오기');
+        b.appendChild(document.createTextNode(t));
+        var ln = document.createElement('span');
+        ln.className = 'llen';
+        ln.textContent = charLen(t) + '자';
+        b.appendChild(ln);
+        b.addEventListener('click', function(){ loadTitle(t); });
+        var cp = document.createElement('button');
+        cp.type = 'button';
+        cp.className = 'copybtn';
+        cp.textContent = '복사';
+        cp.setAttribute('aria-label', '이 제목 복사');
+        cp.addEventListener('click', function(){ copyText(t, cp); });
+        row.appendChild(b);
+        row.appendChild(cp);
+        card.appendChild(row);
+      });
+
+      var tags = tp.tags || [];
+      if(tags.length){
+        var tw = document.createElement('div');
+        tw.className = 'tags';
+        tags.forEach(function(g){
+          var c = document.createElement('span');
+          c.className = 'tagchip';
+          c.textContent = g;
+          tw.appendChild(c);
+        });
+        card.appendChild(tw);
+
+        var tr = document.createElement('div');
+        tr.className = 'tagrow';
+        var tg = document.createElement('span');
+        tg.className = 'tg';
+        tg.textContent = '태그 ' + tags.length + '개 · 띄어쓰기로 붙여넣기';
+        var tcp = document.createElement('button');
+        tcp.type = 'button';
+        tcp.className = 'copybtn';
+        tcp.textContent = '태그 복사';
+        tcp.addEventListener('click', function(){ copyText(tags.join(' '), tcp); });
+        tr.appendChild(tg);
+        tr.appendChild(tcp);
+        card.appendChild(tr);
+      }
+      tLibEl.appendChild(card);
+    });
+  }
+
+  var gavisData = null;
+  var gavisDataEl = document.getElementById('gavis-titles-data');
+  if(gavisDataEl){
+    try{ gavisData = JSON.parse(gavisDataEl.textContent || '{}'); }
+    catch(e){ gavisData = null; }
+  }
+  renderLib(gavisData);
+  updateStudio();
 
   /* ---------- init from hash ---------- */
   var h = (location.hash || '').replace('#','');
